@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Crypto Price Tracker</title>
+</head>
+<body>
+
+    <h1>Real Time CryptoCurrency Price Tracker</h1>
+
+    <div style="width: 75%; margin: auto;">
+        <div id="card">
+            <div id="cards">
+                <div id="info">
+                    <h4>Bitcoin(BTC)</h4>
+                    <p id="BTC"></p>
+                </div>
+            </div>
+            <div id="cards">
+                <div id="info">
+                    <h4>Ethereum(ETH)</h4>
+                    <p id="ETH"></p>
+                </div>
+            </div>
+            <div id="cards">
+                <div id="info">
+                    <h4>Litecoin(LTC)</h4>
+                    <p id="LTC"></p>
+                </div>
+            </div>
+        </div>
+
+        <canvas id="BTC_chart" ></canvas>
+        <canvas id="ETH_chart" ></canvas>
+    </div>
+
+    <p class="copy">Made by <a href="https://bychris.netlify.app">Chris</a></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="chart.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

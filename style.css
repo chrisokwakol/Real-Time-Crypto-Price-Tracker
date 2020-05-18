@@ -1,0 +1,52 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    background: #333;
+    color: #fff;
+}
+
+.canvas {
+    display: block;
+    width: 1000px;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#info, #cards {
+    background: #333;
+    /* background: rgb(255, 99, 132); */
+}
+
+h4, p {
+    background: #333;
+    text-align: center;
+    /* background: rgb(255, 99, 132); */
+}
+
+#cards {
+    /* background: #333; */
+    /* background-color: rgb(255, 99, 132); */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px 100px;
+}
+
+.cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.copy {
+    margin-top: 20px;
+}
+
+#ETH_chart {
+    margin-top: 40px;
+}
