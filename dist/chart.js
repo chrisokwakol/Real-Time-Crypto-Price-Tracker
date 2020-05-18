@@ -83,6 +83,7 @@ var chart1 = new Chart(BTC_chart, {
     options: {}
 });
 
+    // Ethereum Chart
     const ETH_chart = document.getElementById('ETH_chart').getContext('2d')
 
     Chart.defaults.global.defaultFontColor = '#888';

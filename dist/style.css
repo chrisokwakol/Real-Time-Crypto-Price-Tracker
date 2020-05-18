@@ -14,39 +14,61 @@ h1 {
     text-align: center;
 }
 
-#card {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
 #info, #cards {
     background: #333;
-    /* background: rgb(255, 99, 132); */
 }
 
 h4, p {
     background: #333;
     text-align: center;
-    /* background: rgb(255, 99, 132); */
+}
+
+#card {
+    margin-bottom: 20px;
+    margin-left: 80px;
 }
 
 #cards {
-    /* background: #333; */
-    /* background-color: rgb(255, 99, 132); */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding: 20px 100px;
+    margin: 10px 30px;
+    float: left;
+    width: 25%;
+    min-height: 100px;
+    min-width: 200px;
 }
 
 .cards:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.copy {
+.copyright {
     margin-top: 20px;
 }
 
 #ETH_chart {
     margin-top: 40px;
+}
+
+@media screen and (max-width: 435px) {
+    #card {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    #card {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #card {
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #card {
+        margin-left: 23px;
+    }
 }
