@@ -10,9 +10,44 @@
     height: 500px;
 }
 
+/* HEADER */
+
 h1 {
-    text-align: center;
+    text-align: left;
+    margin-left: 25px;
+    color: yellow;
 }
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu {
+    float: right;
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 0px 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-menu li:hover {
+    color: yellow;
+    border-bottom: 3px solid yellow;
+    margin-top: 2px;
+}
+
+.nav-menu a :active {
+    background-color: yellow;
+}
+
+/* CARDS */
 
 #info, #cards {
     background: #333;
@@ -48,6 +83,29 @@ h4, p {
 #ETH_chart {
     margin-top: 40px;
 }
+
+/* NEWS SECTION */
+.news {
+    margin: auto;
+}
+
+.news-article {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 100px;
+}
+
+.news-article img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+}
+
+.news-article p {
+    text-align: left;
+}
+
+
 
 @media screen and (max-width: 435px) {
     #card {

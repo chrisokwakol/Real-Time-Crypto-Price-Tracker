@@ -11,22 +11,30 @@
 </head>
 <body>
 
-    <h1>Real Time CryptoCurrency Price Tracker</h1>
+    <header>
+        <h1>Real Time CryptoCurrency Price Tracker</h1>
+
+        <ul class="nav-menu">
+            <a href="index.html"><li>Home</li></a>
+            <!-- <a href="news.html"><li>News</li></a> -->
+        </ul>
+    </header>
+
 
         <div id="card">
-            <div id="cards">
+            <div id="cards" class="animate__animated animate__swing">
                 <div id="info">
                     <h4>Bitcoin(BTC)</h4>
                     <p id="BTC"></p>
                 </div>
             </div>
-            <div id="cards">
+            <div id="cards" class="animate__animated animate__swing">
                 <div id="info">
                     <h4>Ethereum(ETH)</h4>
                     <p id="ETH"></p>
                 </div>
             </div>
-            <div id="cards">
+            <div id="cards" class="animate__animated animate__swing">
                 <div id="info">
                     <h4>Litecoin(LTC)</h4>
                     <p id="LTC"></p>
@@ -40,7 +48,7 @@
         <canvas id="ETH_chart" ></canvas>
     </div>
 
-    <p class="copyright">Made by <a href="https://bychris.netlify.app">Chris</a></p>
+    <p class="copyright">Made by <a href="https://bychris.netlify.app" target="_blank">Chris</a></p>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="chart.js"></script>
